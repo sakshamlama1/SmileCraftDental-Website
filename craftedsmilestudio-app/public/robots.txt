@@ -1,8 +1,0 @@
-# robots.txt for Crafted Smiles Studio
-# https://www.robotstxt.org/robotstxt.html
-
-User-agent: *
-Disallow:
-
-# Sitemap location
-Sitemap: https://www.craftedsmilestudio.com/sitemap.xml

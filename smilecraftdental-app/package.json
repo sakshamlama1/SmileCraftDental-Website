@@ -1,0 +1,107 @@
+{
+  "name": "smilecraftdental-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.8.4",
+    "bootstrap": "^5.3.3",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.501.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.2.0",
+    "react-scripts": "5.0.1",
+    "react-snap": "^1.23.0",
+    "react-toastify": "^11.0.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "reactSnap": {
+    "include": [
+      "/",
+      "/about-us",
+      "/faqs",
+      "/privacy-policy",
+      "/terms-and-conditions",
+      "/payments",
+      "/payment-options",
+      "/payment-options/healthfunds",
+      "/payment-options/child-dental-benefit",
+      "/payment-options/veterans-affairs",
+      "/payment-plans",
+      "/payment-plans/afterpay",
+      "/payment-plans/humm",
+      "/payment-plans/smile-right",
+      "/get-price-list",
+      "/special-offers",
+      "/blogs",
+      "/services",
+      "/services/cosmetic",
+      "/services/cosmetic/composite-veneers-bonding",
+      "/services/cosmetic/dental-veneers",
+      "/services/cosmetic/digital-smile-design",
+      "/services/cosmetic/aligners",
+      "/services/cosmetic/teeth-whitening",
+      "/services/general",
+      "/services/general/children-dentistry",
+      "/services/general/dental-anxiety-nervous-patients",
+      "/services/general/dental-bridge",
+      "/services/general/dental-check-ups-cleaning",
+      "/services/general/dental-crown",
+      "/services/general/dental-fillings",
+      "/services/general/dental-emergency",
+      "/services/general/tooth-extractions",
+      "/services/general/gum-disease-treatment",
+      "/services/general/custom-mouth-guards",
+      "/services/general/root-canal-treatment",
+      "/services/general/bruxism-treatment",
+      "/services/general/wisdom-teeth-removal",
+      "/services/restorative",
+      "/services/restorative/dentures",
+      "/services/restorative/dental-bridge",
+      "/services/restorative/dental-crown",
+      "/services/restorative/full-mouth-rehabilitation",
+      "/help-me-with",
+      "/help-me-with/bruxism",
+      "/help-me-with/chipped-tooth",
+      "/help-me-with/crooked-teeth",
+      "/help-me-with/dental-abscess",
+      "/help-me-with/dental-fillings",
+      "/help-me-with/missing-crowns-fillings",
+      "/help-me-with/missing-teeth",
+      "/help-me-with/sensitivity",
+      "/help-me-with/tooth-staining",
+      "/help-me-with/severe-tooth-ache",
+      "/help-me-with/wisdom-teeth-pain"
+    ]
+  }
+}

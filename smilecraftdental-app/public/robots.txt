@@ -1,0 +1,8 @@
+# robots.txt for Smile Craft Dental
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://www.smilecraftdental.com/sitemap.xml
