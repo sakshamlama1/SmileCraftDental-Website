@@ -91,7 +91,7 @@ function PriceListForm() {
       );
       const link = document.createElement("a");
       link.href = url;
-      link.setAttribute("download", "Crafted Smiles Studio - Price List.pdf");
+      link.setAttribute("download", "Smile Craft Dental - Price List.pdf");
       document.body.appendChild(link);
       link.click();
       link.remove();
