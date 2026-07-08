@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(195deg, #D1A16F 0%, #FDE6C7 50%, #ffffff 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 50%, #FFFFFF 100%);
     padding-top: calc(200px + clamp(3rem, 3vw, 3rem));
     padding-bottom: clamp(3rem, 10vw, 10rem);
     box-sizing: border-box;
@@ -82,23 +82,23 @@
 }
 
 .btn-primary {
-    background-color: #CD9457;
+    background-color: #1E9ED8;
     color: #fff;
 }
 
 .btn-primary:hover {
-    background-color: #4096A6;
+    background-color: #1788BD;
     color: #fff;
 }
 
 .btn-secondary {
     background-color: #fff;
-    color: #4096A6;
-    border: 2px solid #4096A6;
+    color: #1788BD;
+    border: 2px solid #1788BD;
 }
 
 .btn-secondary:hover {
-    background-color: #4096A6;
+    background-color: #1788BD;
     color: #fff;
 }
 

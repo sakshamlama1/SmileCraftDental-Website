@@ -36,7 +36,7 @@ const faqsArray = [
     question: "Do you offer dental care for the whole family?",
     answer: (
       <>
-        Yes. Our Elermore Vale dental clinic provides care for <b>children, teenagers, adults, and seniors</b>, allowing <b>families to receive treatment in one convenient location</b>.
+        Yes. Our Tuncurry dental clinic provides care for <b>children, teenagers, adults, and seniors</b>, allowing <b>families to receive treatment in one convenient location</b>.
       </>
     )
   },
@@ -65,10 +65,10 @@ const faqsArray = [
     )
   },
   {
-    question: "How can I book a family dentist appointment in Elermore Vale?",
+    question: "How can I book a family dentist appointment in Tuncurry?",
     answer: (
       <>
-        You can book an appointment by contacting our Elermore Vale dental clinic directly. <b>New patients are welcome</b>, and <b>flexible appointment times</b> are available.
+        You can book an appointment by contacting our Tuncurry dental clinic directly. <b>New patients are welcome</b>, and <b>flexible appointment times</b> are available.
       </>
     )
   }
@@ -82,7 +82,7 @@ function ChildrenDentalServices() {
       <Header />
 
       <Hero
-        title="GENTLE CHILDREN'S DENTISTRY IN ELERMORE VALE"
+        title="GENTLE CHILDREN'S DENTISTRY IN Tuncurry"
         subheading=
         {`Positive dental experiences start here
             At Smile Craft Dental, we specialise in gentle, child-focused dental care that helps little smiles grow healthy and strong. Our friendly team creates a calm, welcoming environment where children feel safe, relaxed, and confident at every visit.

@@ -64,7 +64,7 @@ function BruxismTreatment() {
       <Header />
 
       <Hero
-        title="BRUXISM TREATMENT IN ELERMORE VALE"
+        title="BRUXISM TREATMENT IN Tuncurry"
         media={BruxismTreatmentImage}
         subheading={`Protect your teeth, jaw, and long-term oral health with expert bruxism treatment at Smile Craft Dental. 
             Teeth grinding and clenching—often occurring during sleep—can go unnoticed until it causes tooth wear, jaw pain, headaches, or cracked teeth. Our experienced team focuses on early diagnosis and personalised treatment to stop damage before it becomes serious.

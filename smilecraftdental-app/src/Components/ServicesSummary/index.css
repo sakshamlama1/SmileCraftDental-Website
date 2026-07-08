@@ -1,5 +1,5 @@
 .services-summary-container {
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     padding: 3rem 2rem;
     text-align: center;
 }
@@ -21,7 +21,7 @@
 .services-summary-text-container h2 {
     font-size: 2.2rem;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 1.2rem;
     line-height: 1.2;
 }
@@ -48,7 +48,7 @@
 .services-summary-box {
     display: flex;            
     flex-direction: column;  
-    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
     border-radius: 1rem;
     padding: 3rem 2rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -102,12 +102,12 @@
     text-align: center;
     transition: all 0.3s ease;
     width: 100%;
-    background-color: #CD9457;
+    background-color: #1E9ED8;
     color: white;
 }
 
 .services-summary-box a:hover {
-    background-color: #4096A6;
+    background-color: #1788BD;
 }
 
 @media (max-width: 1024px) {

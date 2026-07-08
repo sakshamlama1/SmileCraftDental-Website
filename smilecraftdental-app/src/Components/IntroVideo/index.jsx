@@ -9,19 +9,19 @@ function IntroVideo() {
                 <div className="intro-video-content">
                     <div className="intro-text">
                         <p>
-                            <b>Welcome to Smile Craft Dental, Elermore Vale:</b> where your smile is our priority. We combine gentle, patient-focused care with modern dental technology to provide personalised treatments for patients of all ages. From routine check-ups and hygiene care to cosmetic and advanced restorative treatments, every visit is tailored to your unique needs. Our dedicated team takes the time to listen, guide, and make you feel comfortable, ensuring a positive experience while supporting your journey to a healthy, confident smile.
+                            <b>Welcome to Smile Craft Dental, Tuncurry:</b> where your smile is our priority. We combine gentle, patient-focused care with modern dental technology to provide personalised treatments for patients of all ages. From routine check-ups and hygiene care to cosmetic and advanced restorative treatments, every visit is tailored to your unique needs. Our dedicated team takes the time to listen, guide, and make you feel comfortable, ensuring a positive experience while supporting your journey to a healthy, confident smile.
                         </p>
 
                         <div className="intro-cta-buttons">
                             <a
-                                href="https://booking.au.hsone.app/soe/new/%20?pid=AUETL01"
+                                href="https://booking.au.hsone.app/soe/new/%20?pid=AUSAL01"
                                 className="intro-cta"
                             >
                                 BOOK AN APPOINTMENT
                             </a>
 
-                            <a href="tel:+61480026382" className="intro-cta secondary">
-                                CALL: 0480026382
+                            <a href="tel:+61265558989" className="intro-cta secondary">
+                                CALL: (02) 6555 8989
                             </a>
                         </div>
                     </div>

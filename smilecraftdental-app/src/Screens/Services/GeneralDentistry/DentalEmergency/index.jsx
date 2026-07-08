@@ -65,7 +65,7 @@ function DentalEmergency() {
       <Header />
 
       <Hero
-        title="DENTAL EMERGENCY CARE IN ELERMORE VALE"
+        title="DENTAL EMERGENCY CARE IN Tuncurry"
         subheading={`Dental emergencies can happen unexpectedly, and Smile Craft Dental is here to provide fast, professional care when you need it most. 
         We focus on pain relief, comfort, and timely treatment for adults and children experiencing urgent dental issues.`}
         media={DentalEmergencyBannerImage}

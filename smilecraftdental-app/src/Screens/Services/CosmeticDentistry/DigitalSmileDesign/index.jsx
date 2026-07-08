@@ -60,7 +60,7 @@ function DigitalSmileDesign() {
         <div className="services-screen">
             <Header />
             <Hero
-                title={"DIGITAL SMILE DESIGN IN ELERMORE VALE"}
+                title={"DIGITAL SMILE DESIGN IN Tuncurry"}
                 subheading={`
                     At Smile Craft Dental, we use Digital Smile Design (DSD) to help patients visualise their new smile before treatment begins. 
                     DSD combines digital photography, facial analysis, and smile simulation to create a personalised, predictable smile makeover.

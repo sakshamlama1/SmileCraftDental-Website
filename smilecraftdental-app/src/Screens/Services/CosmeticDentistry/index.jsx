@@ -18,12 +18,12 @@ function CosmeticDentistry() {
         <div className="cosmetic-dentistry-screen">
             <Header />
             <Hero
-                title={"COSMETIC DENTISTRY IN ELERMORE VALE"}
+                title={"COSMETIC DENTISTRY IN Tuncurry"}
                 subheading={`
                     At Smile Craft Dental, our cosmetic dentistry focuses on enhancing the appearance of your smile while supporting long-term dental health.
                     From subtle refinements to complete smile transformations, we offer personalized cosmetic dentistry designed to enhance your smile’s natural beauty.
                     Combining advanced techniques with thoughtful, patient-focused care. Our clinic welcomes patients, providing cosmetic dental care across 
-                    Elermore Vale, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding areas.
+                    Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding areas.
                 `}
                 media={CosmeticDentistryImage}
             />

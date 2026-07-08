@@ -64,7 +64,7 @@ function Dentures() {
         <div className="services-screen">
             <Header />
             <Hero 
-                title={"DENTURES IN ELERMORE VALE"}
+                title={"DENTURES IN Tuncurry"}
                 subheading={`Restore your smile, confidence, and chewing ability with custom dentures from Smile Craft Dental. we offer personalised denture solutions for adults of all ages.
                     Dentures help restore a natural, confident smile while improving chewing and speech. They support facial structure to prevent a sunken appearance and help maintain proper oral 
                     health by replacing missing teeth. With the right dentures, you can enjoy life fully and regain both function and confidence.

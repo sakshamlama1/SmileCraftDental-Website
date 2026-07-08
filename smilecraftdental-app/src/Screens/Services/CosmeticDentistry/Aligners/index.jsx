@@ -64,8 +64,8 @@ function Aligners() {
     <div className="services-screen">
       <Header />
       <Hero 
-        title={"Aligners IN ELERMORE VALE"}
-        subheading={`At Smile Craft Dental, we offer aligners treatment—discreet, comfortable, and effective teeth straightening. Aligners, a modern alternative to traditional braces, can correct crooked teeth, gaps, crowding, and bite concerns. If you are searching for aligners near me, invisible braces, or teeth straightening in Elermore Vale, our experienced team is here to guide you through your smile transformation.`}
+        title={"Aligners IN Tuncurry"}
+        subheading={`At Smile Craft Dental, we offer aligners treatment—discreet, comfortable, and effective teeth straightening. Aligners, a modern alternative to traditional braces, can correct crooked teeth, gaps, crowding, and bite concerns. If you are searching for aligners near me, invisible braces, or teeth straightening in Tuncurry, our experienced team is here to guide you through your smile transformation.`}
         media={AlignersBannerImage}
       />
       <div className="services-container">

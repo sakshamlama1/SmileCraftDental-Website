@@ -76,8 +76,8 @@ function ToothExtractions() {
       <Header />
 
       <Hero
-        title="TOOTH EXTRACTIONS IN ELERMORE VALE"
-        subheading={`At Smile Craft Dental, we provide expert tooth extractions in Elermore Vale NSW, including wisdom teeth removal and surgical extractions, with a gentle, family-focused approach. Our experienced dental team ensures every procedure is safe, comfortable, and tailored to your needs.
+        title="TOOTH EXTRACTIONS IN Tuncurry"
+        subheading={`At Smile Craft Dental, we provide expert tooth extractions in Tuncurry NSW, including wisdom teeth removal and surgical extractions, with a gentle, family-focused approach. Our experienced dental team ensures every procedure is safe, comfortable, and tailored to your needs.
         Whether you need a simple extraction, removal of impacted wisdom teeth, or a more complex surgical extraction, we prioritise patient comfort, precision, and long-term oral health.
         Book with confidence if you need an extraction.`}
         media={ToothExtractionsBannerImage}

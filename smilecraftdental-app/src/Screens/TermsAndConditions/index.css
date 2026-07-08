@@ -1,6 +1,6 @@
 
 .terms-and-conditions-container {
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     display: flex;
     margin: auto;
     padding: 3rem 2rem;
@@ -24,7 +24,7 @@
 .terms-section h2 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 10px;
 }
 

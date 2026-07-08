@@ -17,7 +17,7 @@ function About() {
                     `At Smile Craft Dental, we combine modern dental expertise with a warm, patient-focused approach. 
                     From routine check-ups to advanced dental treatments, our experienced team is committed to helping you 
                     achieve and maintain a healthy, confident smile in a comfortable and welcoming environment. 
-                    We proudly care for patients from Elermore Vale, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding suburbs.`
+                    We proudly care for patients from Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding suburbs.`
             }
                 media={AboutUsBannerImage} 
             />
@@ -29,13 +29,13 @@ function About() {
                     <div className="about-right">
                         <h2 className="section-heading">WHO WE ARE</h2>
                         <p>
-                            Are you looking for a dentist in Elermore Vale? Smile Craft Dental would like to extend a very warm welcome to everyone visiting us. We understand visiting the dentist isn’t everyone’s favourite pastime, but we aim to make your experience with us as warm, friendly and affordable as possible. Our dentists offer a range of treatments depending on your individual circumstances and needs.
+                            Are you looking for a dentist in Tuncurry? Smile Craft Dental would like to extend a very warm welcome to everyone visiting us. We understand visiting the dentist isn’t everyone’s favourite pastime, but we aim to make your experience with us as warm, friendly and affordable as possible. Our dentists offer a range of treatments depending on your individual circumstances and needs.
                         </p>
                         <p>
                             <b>From bulk billing to payment plans, get in touch with us today to learn how we can help.</b> 
                         </p>
                         <p>
-                           At our Elermore Vale location, we have dentists offering care and services to patients throughout Newcastle, Elermore Vale, Wallsend, Cardiff, Rankin Park, New Lambton, and all surrounding areas. Whether it’s a dental emergency, considering cosmetic dentistry, or you’re merely needing a check-up, Smile Craft Dental are the dentist for you. Book an appointment online today!
+                           At our Tuncurry location, we have dentists offering care and services to patients throughout Newcastle, Tuncurry, Wallsend, Cardiff, Rankin Park, New Lambton, and all surrounding areas. Whether it’s a dental emergency, considering cosmetic dentistry, or you’re merely needing a check-up, Smile Craft Dental are the dentist for you. Book an appointment online today!
 
                         </p>
                     </div>

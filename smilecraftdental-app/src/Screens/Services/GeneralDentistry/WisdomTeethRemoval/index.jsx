@@ -70,7 +70,7 @@ function WisdomTeethRemoval() {
       <Header />
 
       <Hero
-        title="WISDOM TEETH REMOVAL IN ELERMORE VALE"
+        title="WISDOM TEETH REMOVAL IN Tuncurry"
         subheading={`At Smile Craft Dental, we provide expert wisdom teeth removal to help you maintain a 
             healthy, comfortable smile. Wisdom teeth, or third molars, can sometimes cause pain, crowding, or 
             infection if they do not erupt properly. Our team specialises in safe, professional removal for 

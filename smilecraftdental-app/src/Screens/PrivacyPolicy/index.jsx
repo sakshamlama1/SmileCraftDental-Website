@@ -100,7 +100,7 @@ function PrivacyPolicy() {
                             <p>
                                 <b>
                                     If you feel that we are not abiding by this privacy policy, you should contact us immediately via telephone at{" "}
-                                    <a href="tel:+61480026382" className="faq-link">0480026382</a> or via email at{" "}
+                                    <a href="tel:+61265558989" className="faq-link">(02) 6555 8989</a> or via email at{" "}
                                     <a href="mailto:info@smilecraftdental.com" className="faq-link">info@smilecraftdental.com.com</a>.
                                 </b>
                             </p>

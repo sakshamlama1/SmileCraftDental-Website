@@ -6,78 +6,134 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
+  color: #313A45;
+  background-color: #F8FBFD;
 }
 
 html {
-  background-color: #F5F5F5;
+  background-color: #F8FBFD;
   scroll-behavior: smooth;
 }
 
-h1 { letter-spacing: 0.04em; }
-h2 { letter-spacing: 0.03em; }
-h3 { letter-spacing: 0.02em; }
-h4, h5, h6 { letter-spacing: 0.01em; }
+/* Typography */
+h1 {
+  letter-spacing: 0.04em;
+}
 
+h2 {
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  letter-spacing: 0.02em;
+}
+
+h4,
+h5,
+h6 {
+  letter-spacing: 0.01em;
+}
+
+
+/* Navigation links */
 .navlink-r {
   text-decoration: none;
   color: white;
 }
 
-/* Navigation link hover styles */
 .navlink-r:hover {
   color: white;
 }
 
+
+/* Primary button */
 #secondary {
-  border: 2px solid #CD9457;
-  background-color: #CD9457;
+  border: 2px solid #1E9ED8;
+  background-color: #1E9ED8;
   color: white;
+  transition: all 0.3s ease;
 }
 
 #secondary:hover {
-  border: 2px solid #4096A6;
-  background-color: #4096A6;
+  border: 2px solid #1788BD;
+  background-color: #1788BD;
   color: white;
 }
 
-/* Tile Link */
+
+/* Accent button (optional) */
+#accent {
+  border: 2px solid #56C6A9;
+  background-color: #56C6A9;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#accent:hover {
+  border: 2px solid #45AD91;
+  background-color: #45AD91;
+}
+
+
+/* Tile Links */
 .tile-link {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: 25px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.3s ease;
-    width: 100%;
-    background-color: #CD9457;
-    color: white;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 100%;
+  background-color: #1E9ED8;
+  color: white;
 }
 
 .tile-link:hover {
-    background-color: #4096A6;
-    color: white;
-    text-decoration: none;
+  background-color: #1788BD;
+  color: white;
+  text-decoration: none;
 }
 
+
+/* Cards / Sections */
+.section-background {
+  background-color: #EEF7FC;
+}
+
+.card {
+  background-color: #F8FBFD;
+  border: 1px solid #E6ECF1;
+}
+
+
+/* Premium highlight */
+.highlight {
+  color: #E7B768;
+}
+
+
+/* Toast notifications */
 .Toastify__toast--success {
-  background: #5B9D7D !important;
+  background: #56C6A9 !important;
   color: white !important;
   font-weight: 700 !important;
   padding: 1rem 1.2rem !important;
-  max-width: 500px !important;   
-  word-wrap: break-word !important; 
-  box-sizing: border-box !important; 
+  max-width: 500px !important;
+  word-wrap: break-word !important;
+  box-sizing: border-box !important;
 }
 
-/* Medium screen - slightly smaller */
+
+/* Medium screen */
 @media (max-width: 1024px) {
   .tile-link {
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
   }
 }
+
 
 /* Tablet and smaller */
 @media (max-width: 768px) {

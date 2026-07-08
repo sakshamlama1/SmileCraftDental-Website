@@ -54,7 +54,7 @@ function DentalAnxiety() {
         <div className="services-screen">
             <Header />
             <Hero 
-                title={"DENTAL ANXIETY AND NERVOUS PATIENTS IN ELERMORE VALE"}
+                title={"DENTAL ANXIETY AND NERVOUS PATIENTS IN Tuncurry"}
                 subheading={
                     `At Smile Craft Dental, we understand that visiting the dentist can feel stressful or overwhelming for some patients. 
                     If you experience dental anxiety or nervousness, our compassionate team is here to support you. We provide a calm, safe 

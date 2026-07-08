@@ -60,7 +60,7 @@ function GumDiseaseTreatment() {
         <div className="services-screen">
             <Header />
             <Hero
-                title={"GUM DISEASE TREATMENT IN ELERMORE VALE"}
+                title={"GUM DISEASE TREATMENT IN Tuncurry"}
                 subheading={`
                     Healthy gums are the foundation of a healthy smile. At Smile Craft Dental, we provide comprehensive gum disease treatment to help manage symptoms such as bleeding gums, gum recession, bad breath, and bone loss, while protecting your teeth long term.
                     Gum disease is common and often develops quietly, but early diagnosis and professional care can prevent serious dental problems, including tooth mobility and missing teeth.

@@ -64,7 +64,7 @@ function CustomMouthGuards() {
       <Header />
 
       <Hero
-        title="CUSTOM MOUTH GUARDS IN ELERMORE VALE"
+        title="CUSTOM MOUTH GUARDS IN Tuncurry"
         subheading={`At Smile Craft Dental, we provide custom mouth guards to protect your teeth, gums, and jaw during sports or night-time grinding. 
         Our premium, custom-fitted guards are designed for comfort, durability, and maximum protection, ensuring you can perform at your best or sleep safely without damaging your teeth.`}
         media={CustomMouthGuardBannerImage}

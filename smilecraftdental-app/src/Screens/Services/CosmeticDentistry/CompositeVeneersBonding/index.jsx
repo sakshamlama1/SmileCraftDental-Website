@@ -63,7 +63,7 @@ function CompositeVeneers() {
         <div className="services-screen">
             <Header />
             <Hero
-                title={"COMPOSITE VENEERS & BONDING IN ELERMORE VALE"}
+                title={"COMPOSITE VENEERS & BONDING IN Tuncurry"}
                 subheading={`
                     At Smile Craft Dental, we provide custom composite veneers and dental bonding to enhance the appearance of your smile quickly, affordably, and with minimal alteration to your natural teeth. 
                     Our treatments are designed to correct minor chips, gaps, discoloration, and uneven teeth, helping you achieve a beautiful, natural-looking smile.

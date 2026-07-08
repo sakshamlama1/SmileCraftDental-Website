@@ -79,7 +79,7 @@ function GetInTouch() {
     }
 
     try {
-      await axios.post("https://smilecraftdental.onrender.com/get-in-touch-contact", formData);
+      await axios.post("http://localhost:8080/get-in-touch-contact", formData);
       toast.success("Thank you for reaching out! We will get back to you soon.");
       formRef.current.reset();
       setFormData({

@@ -17,11 +17,11 @@ function RestorativeDentistry() {
         <div className="restorative-dentistry-screen">
             <Header />
             <Hero 
-                title={"RESTORATIVE DENTISTRY IN ELERMORE VALE"} 
+                title={"RESTORATIVE DENTISTRY IN Tuncurry"} 
                 subheading={`
                     Dental damage can impact more than just your smile. At Smile Craft Dental, we provide comprehensive restorative 
                     dentistry to repair damaged teeth, replace missing teeth, and restore the natural function and appearance of your smile.  
-                    Providing trusted restorative dental care for patients in Elermore Vale, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding suburbs.
+                    Providing trusted restorative dental care for patients in Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding suburbs.
                 `}
                 media={RestorativeDentistryImage}
             />

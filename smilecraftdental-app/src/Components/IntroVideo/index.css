@@ -1,5 +1,5 @@
 .clinic-intro-video {
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     padding: 3rem 2rem;
     text-align: center;
 }
@@ -12,7 +12,7 @@
 .intro-video-heading {
     font-size: 2.2rem;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 1.2rem;
     text-transform: uppercase;
     padding-bottom: 0.6rem;
@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
-    background-color: #CD9457;
+    background-color: #1E9ED8;
     color: white;
     padding: 0.5rem 1.5rem;
     font-size: 1.1rem;
@@ -78,7 +78,7 @@
 }
 
 .intro-cta:hover {
-  background-color: #4096A6;
+  background-color: #1788BD;
   color: white;
 }
 
@@ -90,12 +90,12 @@
 
 .intro-cta.secondary {
     background-color: #fff;
-    color: #4096A6;
-    border: 2px solid #4096A6;
+    color: #1788BD;
+    border: 2px solid #1788BD;
 }
 
 .intro-cta.secondary:hover {
-    background-color: #4096A6; /* graphite hover */
+    background-color: #1788BD; /* graphite hover */
     color: white;
 }
 

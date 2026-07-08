@@ -64,9 +64,9 @@ function DentalVeneers() {
         <div className="services-screen">
             <Header />
             <Hero 
-                title={"DENTAL VENEERS IN ELERMORE VALE"}
+                title={"DENTAL VENEERS IN Tuncurry"}
                 subheading={`At Smile Craft Dental, we offer custom dental veneers to help patients achieve a brighter, more confident smile. Veneers are a popular cosmetic dental treatment designed to improve the shape, colour, alignment, and overall appearance of teeth while maintaining a natural look.
-                            If you are searching for smile makeover options, cosmetic veneers, or teeth veneers near Elermore Vale, our experienced team is here to guide you through every step of your transformation.
+                            If you are searching for smile makeover options, cosmetic veneers, or teeth veneers near Tuncurry, our experienced team is here to guide you through every step of your transformation.
                 `}
                 media={DentalVeneersBannerImage}
             />

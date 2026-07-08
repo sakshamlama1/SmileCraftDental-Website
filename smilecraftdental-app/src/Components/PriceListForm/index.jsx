@@ -80,7 +80,7 @@ function PriceListForm() {
         email: formData.email.toLowerCase().trim()
       };
 
-      const response = await axios.post("https://smilecraftdental.onrender.com/price-list-form", formattedData,
+      const response = await axios.post("http://localhost:8080/price-list-form", formattedData,
         {
           responseType: "blob"
         }
@@ -91,7 +91,7 @@ function PriceListForm() {
       );
       const link = document.createElement("a");
       link.href = url;
-      link.setAttribute("download", "Smile Craft Dental - Price List.pdf");
+      link.setAttribute("download", "Crafted Smiles Studio - Price List.pdf");
       document.body.appendChild(link);
       link.click();
       link.remove();

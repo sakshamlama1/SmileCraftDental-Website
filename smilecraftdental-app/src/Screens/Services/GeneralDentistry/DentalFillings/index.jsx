@@ -61,7 +61,7 @@ const faqsArray = [
     )
   },
   {
-    question: "How much does a dental filling cost in Elermore Vale?",
+    question: "How much does a dental filling cost in Tuncurry?",
     answer: (
       <>
         Costs vary depending on the <b>type of filling</b> and the <b>tooth treated</b>. 
@@ -77,7 +77,7 @@ function DentalFillings() {
       <Header />
 
       <Hero
-        title="DENTAL FILLINGS IN ELERMORE VALE"
+        title="DENTAL FILLINGS IN Tuncurry"
         subheading={`Restore your smile with confidence at Smile Craft Dental. 
         We use the latest dental techniques and premium-quality materials to deliver strong, natural-looking fillings with a gentle, family-friendly touch. 
         Comfort, care, and long-lasting results — every visit.

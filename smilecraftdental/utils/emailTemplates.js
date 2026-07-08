@@ -19,16 +19,16 @@ export const getAdminNotificationEmail = (firstName, lastName, email, phone, tre
 });
 
 export const getPriceListEmail = (firstName, lastName) => ({
-  subject: 'Your Requested Price List from Crafted Smiles Studio',
+  subject: 'Your Requested Price List from Smile Craft Dental',
   body: `
     <div style="font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: auto; padding: 20px;">
       <h2 style="color: #5B9D7D; border-bottom: 1px solid #eee; padding-bottom: 10px;">Thank You for Your Interest</h2>
       <p>Dear ${firstName} ${lastName},</p>
       <p>Thank you for reaching out! Please find the requested price list attached.</p>
       <p>If you have any questions, contact us anytime at:</p>
-      <p>📞 <strong>Phone:</strong> 0480 026 382 <br/> ✉️ <strong>Email:</strong> info@smilecraftdental.com</p>
+      <p>📞 <strong>Phone:</strong> (02) 6555 8989 <br/> ✉️ <strong>Email:</strong> info@smilecraftdental.com</p>
       <br/>
-      <p>Best regards,<br/><strong>The Crafted Smiles Studio Team</strong></p>
+      <p>Best regards,<br/><strong>The Smile Craft Dental Team</strong></p>
       <hr />
       <p style="font-size: 12px; color: #999; text-align: center;">
         This is an automated email. Please do not reply.

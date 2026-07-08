@@ -32,7 +32,7 @@ function SpecialOffers() {
                             <p className="special-offers-description">{feature.description[0]}</p>
                             <p className="special-offers-description">{feature.description[1]}</p>
                             <div className="special-offers-screen-learn-more">
-                                <a href="https://booking.au.hsone.app/soe/new/%20?pid=AUETL01">
+                                <a href="https://booking.au.hsone.app/soe/new/%20?pid=AUSAL01">
                                     Book Now → (For Online Booking Only)
                                 </a>
                             </div>

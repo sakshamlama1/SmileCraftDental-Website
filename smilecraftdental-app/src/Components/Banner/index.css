@@ -1,7 +1,7 @@
 /* Banner Section */
 .banner {
     padding: 3rem; 
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     text-align: left;
     overflow: hidden;
 }
@@ -15,7 +15,7 @@
     justify-content: space-between;
     gap: 2rem; /* consistent gap between content and image */
     padding: 4rem 2rem;
-    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
     border-radius: 12px; /* subtle rounding for professional look */
 }
 
@@ -48,12 +48,12 @@
 
 /* Primary Button */
 .banner-cta {
-    background-color: #CD9457;
+    background-color: #1E9ED8;
     color: #fff;
 }
 
 .banner-cta:hover {
-    background-color: #4096A6;
+    background-color: #1788BD;
     color: #fff;
 }
 
@@ -71,12 +71,12 @@
 
 .banner-cta.secondary {
     background-color: #fff;
-    color: #4096A6;
-    border: 2px solid #4096A6;
+    color: #1788BD;
+    border: 2px solid #1788BD;
 }
 
 .banner-cta.secondary:hover {
-    background-color: #4096A6;
+    background-color: #1788BD;
     color: white;
 }
 

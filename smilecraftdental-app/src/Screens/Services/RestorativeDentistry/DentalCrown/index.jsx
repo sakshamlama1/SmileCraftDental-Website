@@ -64,7 +64,7 @@ function DentalCrowns() {
         <div className="services-screen">
             <Header />
             <Hero 
-                title={"DENTAL CROWNS IN ELERMORE VALE"}
+                title={"DENTAL CROWNS IN Tuncurry"}
                 subheading={`
                     At Smile Craft Dental, we provide expert dental crown treatments to restore, protect, and strengthen damaged teeth. 
                     Whether you have a tooth that is cracked, worn, decayed, or weakened after root canal treatment, a dental crown can reinforce your tooth and restore your smile.

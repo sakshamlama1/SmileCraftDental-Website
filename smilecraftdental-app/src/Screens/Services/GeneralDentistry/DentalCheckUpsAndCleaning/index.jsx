@@ -65,7 +65,7 @@ function DentalCheckUpsAndCleaning() {
       <Header />
 
       <Hero
-        title="DENTAL CHECKUPS & CLEANING IN ELERMORE VALE"
+        title="DENTAL CHECKUPS & CLEANING IN Tuncurry"
         subheading={`Keep your smile healthy, bright, and confident with professional dental checkups and cleans at Smile Craft Dental. 
         Our gentle, family-focused team helps prevent cavities, gum disease, and other oral health issues while making every visit comfortable and thorough.
         Schedule your appointment today.`}

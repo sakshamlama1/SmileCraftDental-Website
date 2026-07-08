@@ -22,7 +22,7 @@ function LandingPage() {
                 <div className="landing-page-content">
                     <Hero 
                         title={"CARING FOR SMILES AT EVERY STAGE OF LIFE"} 
-                        subheading={"Welcome to Smile Craft Dental, Elermore Vale – where we combine gentle, expert dental care with modern technology to keep your smile healthy and confident. From your child’s first check-up to advanced cosmetic and restorative treatments, we’re here to support your family’s oral health at every stage of life. Our goal is to make every visit comfortable, positive, and tailored to your unique smile."} 
+                        subheading={"Welcome to Smile Craft Dental, Tuncurry – where we combine gentle, expert dental care with modern technology to keep your smile healthy and confident. From your child’s first check-up to advanced cosmetic and restorative treatments, we’re here to support your family’s oral health at every stage of life. Our goal is to make every visit comfortable, positive, and tailored to your unique smile."} 
                         media={HeroImage}
                         isLandingPage={true}
                     />

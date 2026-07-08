@@ -54,7 +54,7 @@ const faqsArray = [
             <>
                 <p>A cracked tooth can be caused by chewing or biting hard objects. You are more prone if you already have a heavily filled tooth. Old amalgam fillings predispose teeth to cracking. A tooth filled with amalgam stands a much higher chance of cracking than an unfilled tooth or a tooth filled with modern resin or ceramic materials.</p>
                 <p>For more information on any aspect of dentistry, please speak to our friendly team.</p>
-                <p>Our Elermore Vale practice is located at 37 Croudace Rd, Elermore Vale NSW 2287. You can contact us on <a href="tel:+61480026382" className="faq-link">0480026382</a>.</p>
+                <p>Our Tuncurry practice is located at 2/25 Manning Street, Tuncurry NSW 2428. You can contact us on <a href="tel:+61265558989" className="faq-link">(02) 6555 8989</a>.</p>
             </>
         )
     }

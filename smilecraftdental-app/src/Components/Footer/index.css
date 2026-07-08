@@ -1,6 +1,6 @@
 /* ===== Footer Base ===== */
 .footer-component {
-    background-color: #3B655E;
+    background-color: #313A45;
     color: white;
     display: flex;
     flex-direction: column;
@@ -20,13 +20,13 @@
 .footer-areas h4 {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 0.5rem;
 }
 
 .footer-map p {
     font-size: 1.1rem;
-    color: #A8E6CF;
+    color: #DDF3FC;
     margin: 0;
     line-height: 1.5;
 }
@@ -60,12 +60,12 @@
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 1rem;
 }
 
 .column-anchor {
-    color: #A8E6CF;
+    color: #DDF3FC;
     text-decoration: none;
     font-size: 1.1rem;
     margin-top: 12px;
@@ -73,7 +73,7 @@
 }
 
 .column-anchor:hover {
-    color: #CD9457;
+    color: #1E9ED8;
 }
 
 /* ===== Map Section ===== */
@@ -86,7 +86,7 @@
 
 /* ===== Copyright Section ===== */
 .footer-copy {
-    background-color: #2C4B45;
+    background-color: #28313B;
     width: 100%;
     text-align: center;
     padding: 1rem 0;
@@ -95,7 +95,7 @@
 .footer-copy p {
     margin: 0;
     font-size: 0.95rem;
-    color: #A8E6CF;
+    color: #DDF3FC;
 }
 
 .areas-list-flex {
@@ -121,7 +121,7 @@
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #CD9457;
+    color: #1E9ED8;
     text-decoration: none;
 }
 

@@ -62,7 +62,7 @@ function FullMouthRehabilitation() {
         <div className="services-screen">
             <Header />
             <Hero 
-                title={"FULL MOUTH REHABILITATION IN ELERMORE VALE"}
+                title={"FULL MOUTH REHABILITATION IN Tuncurry"}
                 subheading={`
                     A comprehensive approach to rebuilding worn, damaged, or missing teeth to restore comfort, function, and confidence.
                     At Smile Craft Dental, full mouth rehabilitation is carefully planned to improve your bite, support facial structure,

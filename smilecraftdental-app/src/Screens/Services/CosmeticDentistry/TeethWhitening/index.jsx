@@ -73,7 +73,7 @@ function TeethWhitening() {
     <div className="services-screen">
       <Header />
       <Hero
-        title={"TEETH WHITENING IN ELERMORE VALE"}
+        title={"TEETH WHITENING IN Tuncurry"}
         subheading={`
           Brighten Your Smile Today. Get a confident, radiant smile with professional teeth whitening at Smile Craft Dental. 
           Choose fast in-chair treatments or convenient take-home kits—safe, effective, and tailored to you. Book your appointment now and let your smile shine!

@@ -9,14 +9,14 @@ function Banner() {
                     <p>BEGIN YOUR JOURNEY TO A BEAUTIFUL SMILE AT SMILE CRAFT DENTAL</p>
                     <div className="banner-cta-buttons">
                         <a
-                            href="https://booking.au.hsone.app/soe/new/%20?pid=AUETL01"
+                            href="https://booking.au.hsone.app/soe/new/%20?pid=AUSAL01"
                             className="banner-cta"
                             aria-label="Book a dental appointment at Smile Craft Dental"
                         >
                             BOOK AN APPOINTMENT
                         </a>
-                        <a href="tel:+61480026382" className="banner-cta secondary">
-                            CALL: 0480026382
+                        <a href="tel:+61265558989" className="banner-cta secondary">
+                            CALL: (02) 6555 8989
                         </a>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 /* Banner Section */
 .special-offers {
     padding: 3rem 2rem; /* increased padding for spacious feel */
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     text-align: left;
     overflow: hidden;
 }
@@ -15,7 +15,7 @@
     justify-content: space-between;
     gap: 2rem;
     padding: 4rem 3rem;
-    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
     border-radius: 12px;
 }
 
@@ -54,12 +54,12 @@
     text-align: center;
     transition: all 0.3s ease;
     min-width: 160px;
-    background-color: #CD9457;
+    background-color: #1E9ED8;
     color: #fff;
 }
 
 .special-offers-button:hover {
-    background-color: #4096A6;
+    background-color: #1788BD;
     color: white;
 }
 

@@ -21,7 +21,7 @@ function Services() {
                 title={"SERVICES"} 
                 subheading={`At Smile Craft Dental, we offer comprehensive dental services for the whole family — 
                     from preventative and general care to cosmetic and restorative treatments designed to keep your smile healthy, confident, and long-lasting. Proudly caring for patients across 
-                    Elermore Vale, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding areas.
+                    Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding areas.
                 `}
             />
             <div className="services-container">

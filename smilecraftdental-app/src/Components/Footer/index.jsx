@@ -8,7 +8,7 @@ const position = [-32.91682107080406, 151.67469614021132];
 
 // Custom Font Awesome Marker Icon
 const customMarkerIcon = L.divIcon({
-    html: '<i class="fa fa-map-marker fa-3x" style="color: #4096A6;"></i>',
+    html: '<i class="fa fa-map-marker fa-3x" style="color: #1788BD;"></i>',
     className: "custom-fa-marker",
     iconSize: [32, 32],
     iconAnchor: [16, 32]
@@ -23,14 +23,13 @@ function Footer() {
                 <div className="footer-areas">
                     <h4>AREAS WE SERVE</h4>
                     <h6 className="areas-list-flex">
-                        <span>Newcastle</span>
-                        <span>Wallsend</span>
-                        <span>Rankin Park</span>
-                        <span>Cardiff</span>
-                        <span>Kotara</span>
-                        <span>Beresfield</span>
-                        <span>Argenton</span>
-                        <span>New Lambton Heights</span>
+                        <span>Tuncurry</span>
+                        <span>Forster</span>
+                        <span>Hallidays Point</span>
+                        <span>Black Head</span>
+                        <span>Diamond Beach</span>
+                        <span>Nabiac</span>
+                        <span>Pacific Palms</span>
                     </h6>
                 </div>
 
@@ -86,7 +85,7 @@ function Footer() {
                         {/* Map Section */}
                         <div className="footer-map">
                             <h4>OUR LOCATION</h4>
-                            <p>137 Croudace Rd, Elermore Vale NSW 2287</p>
+                            <p>2/25 Manning Street, Tuncurry NSW 2428</p>
                             <MapContainer
                                 center={position}
                                 zoom={30}

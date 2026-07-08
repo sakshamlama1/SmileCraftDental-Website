@@ -9,13 +9,13 @@ function Hero({ title, subheading, media, isLandingPage = false }) {
           <p className="tagline">{subheading}</p>
           <div className="cta-buttons">
             <a
-              href="https://booking.au.hsone.app/soe/new/%20?pid=AUETL01"
+              href="https://booking.au.hsone.app/soe/new/%20?pid=AUSAL01"
               className="btn-primary"
             >
               BOOK AN APPOINTMENT
             </a>
-            <a href="tel:+61480026382" className="btn-secondary">
-              CALL: 0480026382
+            <a href="tel:+61265558989" className="btn-secondary">
+              CALL: (02) 6555 8989
             </a>
           </div>
         </div>

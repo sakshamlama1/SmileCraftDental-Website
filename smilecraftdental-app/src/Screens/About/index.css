@@ -1,7 +1,7 @@
 
 .about-container {
     padding: 3rem 0; /* increased padding for spacious feel */
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     text-align: left;
     overflow: hidden;
 }
@@ -38,7 +38,7 @@
 .section-heading {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
     margin: 1rem auto;
 }
 
@@ -46,7 +46,7 @@
     font-size: 1.8rem;
     margin: 1rem auto;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
 }
 
 .about-right p {
@@ -83,7 +83,7 @@
     top: 0.6em;
     width: 0.35em;
     height: 0.35em;
-    background-color: #4096A6;
+    background-color: #1788BD;
     border-radius: 50%;
 }
 

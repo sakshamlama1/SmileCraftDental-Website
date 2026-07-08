@@ -152,7 +152,7 @@ function Header() {
                     <div className="header-call-us-button">
                         <CallUsButton />
                     </div>
-                    <a id="booking-btn-id" className="navlink-r" href="https://booking.au.hsone.app/soe/new/%20?pid=AUETL01" target="_blank" rel="noopener noreferrer">
+                    <a id="booking-btn-id" className="navlink-r" href="https://booking.au.hsone.app/soe/new/%20?pid=AUSAL01" target="_blank" rel="noopener noreferrer">
                         <button className='btn' id='secondary'>BOOK AN APPOINTMENT</button>  
                     </a>    
                 </div>
@@ -166,7 +166,7 @@ function Header() {
             {menuOpen && (
                 <div className="mobile-menu">
                     <div className="mobile-menu-buttons">
-                        <a className="booking-appointment-mobile-menu-anchor" href="https://booking.au.hsone.app/soe/new/%20?pid=AUETL01" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>Book An Appointment</a>
+                        <a className="booking-appointment-mobile-menu-anchor" href="https://booking.au.hsone.app/soe/new/%20?pid=AUSAL01" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>Book An Appointment</a>
                         <div id="menu-booking-btn-id" className="mobile-menu-anchor">
                             <CallUsButton isMobileHeader={true} />
                         </div>

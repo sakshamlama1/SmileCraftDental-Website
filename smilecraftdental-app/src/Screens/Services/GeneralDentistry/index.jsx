@@ -18,11 +18,11 @@ function GeneralDentistry() {
         <div className="general-dentistry-screen">
             <Header />
             <Hero 
-                title={"GENERAL DENTISTRY IN ELERMORE VALE"}
+                title={"GENERAL DENTISTRY IN Tuncurry"}
                 subheading={`
-                    Welcome to Smile Craft Dental, a trusted family dentist in Elermore Vale NSW, 
+                    Welcome to Smile Craft Dental, a trusted family dentist in Tuncurry NSW, 
                     where personalised care, comfort, and clinical excellence come together. We provide high-quality dental care for children, adults, and seniors in a calm, 
-                    welcoming environment designed to put the whole family at ease. If you’re searching for a gentle, experienced dentist near Elermore Vale, 
+                    welcoming environment designed to put the whole family at ease. If you’re searching for a gentle, experienced dentist near Tuncurry, 
                     our dedicated team at Smile Craft Dental is here to support your oral health at every stage of life.
                 `}
                 media={GeneralDentistryImage}
@@ -31,20 +31,20 @@ function GeneralDentistry() {
                 <div className="general-dentistry-content">
                     <section className="services-landing">
                         <div className="services-section">
-                            <h2>Caring, Family Dentist in Elermore Vale for One Stop Solutions</h2>
+                            <h2>Caring, Family Dentist in Tuncurry for One Stop Solutions</h2>
                             <p>
                                 At <b>Smile Craft Dental</b>, we provide <b>comprehensive dental care for the whole family</b> in a modern, welcoming environment. 
                                 From <b>children’s dental check-ups and preventive care to wisdom teeth removal, and general dental treatments</b>, 
                                 our team delivers safe, effective, and personalised solutions for every stage of life.
                             </p>
                             <p> 
-                                Our <b>Elermore Vale dental clinic</b> combines <b>advanced technology</b> with a <b>patient-focused approach</b>, ensuring a comfortable and reassuring experience 
+                                Our <b>Tuncurry dental clinic</b> combines <b>advanced technology</b> with a <b>patient-focused approach</b>, ensuring a comfortable and reassuring experience 
                                 for children, teens, and adults alike. We focus on <b>preventive dentistry, oral health education, and long-term dental wellness</b>, helping 
                                 families maintain healthy, confident smiles.
                             </p>
                             <p>
                                 With years of experience, our dedicated team builds <b>lasting relationships with patients</b>, offering tailored treatment 
-                                plans that meet your unique needs. Proudly serving <b>Elermore Vale, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara,
+                                plans that meet your unique needs. Proudly serving <b>Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara,
                                 and surrounding areas</b>, we are committed to providing <p>exceptional family dentistry, cosmetic dentistry, and restorative dental care you can trust.</p>
                             </p>
                         </div>

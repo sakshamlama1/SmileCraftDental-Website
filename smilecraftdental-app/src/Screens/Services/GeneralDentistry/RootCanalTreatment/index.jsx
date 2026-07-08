@@ -64,7 +64,7 @@ function RootCanalTreatment() {
       <Header />
 
       <Hero
-        title="ROOT CANAL TREATMENT IN ELERMORE VALE"
+        title="ROOT CANAL TREATMENT IN Tuncurry"
         subheading={`Save your natural teeth and relieve discomfort at Smile Craft Dental. 
         We provide gentle, personalised root canal treatment for adults and teens, ensuring long-term oral health and a confident smile.
         Early intervention prevents further complications and protects your teeth for years to come.`}

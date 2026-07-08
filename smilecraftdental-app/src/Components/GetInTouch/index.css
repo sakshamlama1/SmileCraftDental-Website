@@ -1,7 +1,7 @@
 .get-in-touch-component {
     display: flex;
     padding: 3rem 2rem;
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +19,7 @@
 .get-in-touch-content h2 {
     font-size: 2rem;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
     position: relative;
     display: inline-block;
     padding-bottom: 0.5em;
@@ -36,7 +36,7 @@
 .floating-form textarea {
     background: transparent;
     border: none;
-    border-bottom: 2px solid #4096A6; /* Bottom border for inputs */
+    border-bottom: 2px solid #1788BD; /* Bottom border for inputs */
     padding: 18px 0;
     width: 100%;
     outline: none;
@@ -47,7 +47,7 @@
 .floating-form input:focus,
 .floating-form select:focus,
 .floating-form textarea:focus {
-    border-bottom: 2px solid #CD9457; /* Highlight effect */
+    border-bottom: 2px solid #1E9ED8; /* Highlight effect */
 }
 
 .floating-form select {
@@ -74,14 +74,14 @@
     text-align: center;
     transition: all 0.3s ease;
     min-width: 160px;
-    background-color: #CD9457;
+    background-color: #1E9ED8;
     color: #fff;
     margin-top: 3rem;
     border: none;
 }
 
 .floating-form button:hover {
-    background-color: #4096A6;
+    background-color: #1788BD;
     color: #fff;
 }
 
@@ -93,7 +93,7 @@
 
 .floating-form label {
     font-size: 1.1rem;
-    color: #4096A6;
+    color: #1788BD;
     margin-top: 1em;
     display: block;
     font-weight: 600;

@@ -1,6 +1,6 @@
 .team-container {
     padding: 3rem 0; /* increased padding for spacious feel */
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     text-align: left;
     overflow: hidden;
     transition: transform 0.5s linear;
@@ -9,7 +9,7 @@
 .team-content {
     margin: auto;
     padding: 4rem 3rem;
-    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
     min-height: 3rem;
 }
   
@@ -64,7 +64,7 @@
     font-weight: 700;
     margin: 0;
     text-align: center;
-    color: #CD9457;
+    color: #1E9ED8;
 }
 
 .team-member {
@@ -100,7 +100,7 @@
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #CD9457;
+    color: #1E9ED8;
 }
 
 .team-info .role {

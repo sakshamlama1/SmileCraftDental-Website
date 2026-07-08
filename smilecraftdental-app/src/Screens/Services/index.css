@@ -10,7 +10,7 @@
 .general-dentistry-container,
 .cosmetic-dentistry-container,
 .restorative-dentistry-container {
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     padding: 3rem 2rem;
     text-align: left;
 }
@@ -44,21 +44,21 @@
 .services-intro-description {
     font-size: 1.6rem;
     line-height: 1.6;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 1rem;
     font-weight: 700;
 }
 
 .services-intro a,
 .services-intro-description a {
-    color: #CD9457;
+    color: #1E9ED8;
     font-weight: 600;
     text-decoration: none;
 }
 
 .services-intro a:hover,
 .services-intro-description a:hover {
-    color: #4096A6;
+    color: #1788BD;
 }
 
 /* Tiles Container */
@@ -71,7 +71,7 @@
 
 /* Individual Tile */
 .service-tile {
-    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
     border-radius: 14px;
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
     padding: 3rem 2rem;
@@ -128,14 +128,14 @@
     top: 0.6em;
     width: 0.35em;
     height: 0.35em;
-    background-color: #4096A6;
+    background-color: #1788BD;
     border-radius: 50%;
 }
 
 .services-section h2 {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 1rem;
     text-align: left;
 }
@@ -143,7 +143,7 @@
 .services-section h3 {
     font-size: 1.6rem;
     font-weight: 600;
-    color: #CD9457;
+    color: #1E9ED8;
     margin-bottom: 1rem;
 }
 

@@ -64,7 +64,7 @@ function DentalBridge() {
         <div className="services-screen">
             <Header />
             <Hero 
-                title={"DENTAL BRIDGES IN ELERMORE VALE"}
+                title={"DENTAL BRIDGES IN Tuncurry"}
                 subheading={`
                     Missing teeth can affect far more than just your smile. At Smile Craft Dental, we offer custom dental bridges to restore your bite, improve confidence, and help you enjoy everyday activities like eating and speaking with ease again.
                     A dental bridge is a reliable, long-lasting solution for replacing one or more missing teeth — helping you regain both function and appearance while preventing future dental problems.

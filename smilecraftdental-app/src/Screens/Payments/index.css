@@ -10,7 +10,7 @@
 .payments-container,
 .payment-options-container,
 .payment-plans-container {
-    background-color: #F7FAFC;
+    background-color: #F8FBFD;
     padding: 3rem 2rem;
     text-align: left;
 }
@@ -36,7 +36,7 @@
 .payments-intro h2 {
     font-size: 1.6rem;
     line-height: 1.6;
-    color: #CD9457;
+    color: #1E9ED8;
     font-weight: 700;
 }
 
@@ -50,7 +50,7 @@
 
 /* Individual Tile */
 .payment-tile {
-    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
     border-radius: 14px;
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
     padding: 3rem 2rem;
@@ -109,7 +109,7 @@
     top: 0.6em;
     width: 0.35em;
     height: 0.35em;
-    background-color: #4096A6;
+    background-color: #1788BD;
     border-radius: 50%;
 }
 

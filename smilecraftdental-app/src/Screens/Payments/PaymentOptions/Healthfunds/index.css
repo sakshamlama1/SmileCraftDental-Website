@@ -43,7 +43,7 @@
 .healthfunds-right h2 {
     font-size: 1.8rem;
     line-height: 1.6;
-    color: #CD9457;
+    color: #1E9ED8;
     font-weight: 700;
 }
 
@@ -74,7 +74,7 @@
     content: "✓";
     position: absolute;
     left: 0;
-    color: #4096A6;
+    color: #1788BD;
     font-weight: bold;
 }
 
