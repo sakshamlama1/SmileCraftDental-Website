@@ -26,7 +26,7 @@ export const getPriceListEmail = (firstName, lastName) => ({
       <p>Dear ${firstName} ${lastName},</p>
       <p>Thank you for reaching out! Please find the requested price list attached.</p>
       <p>If you have any questions, contact us anytime at:</p>
-      <p>📞 <strong>Phone:</strong> (02) 6555 8989 <br/> ✉️ <strong>Email:</strong> info@smilecraftdental.com</p>
+      <p>📞 <strong>Phone:</strong> (02) 6555 8989 <br/> ✉️ <strong>Email:</strong> tuncurry@smilecraftdental.com</p>
       <br/>
       <p>Best regards,<br/><strong>The Smile Craft Dental Team</strong></p>
       <hr />

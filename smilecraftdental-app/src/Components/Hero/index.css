@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 50%, #FFFFFF 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 50%, #FFFFFF 85%, #E7B768 100%);
     padding-top: calc(200px + clamp(3rem, 3vw, 3rem));
     padding-bottom: clamp(3rem, 10vw, 10rem);
     box-sizing: border-box;
