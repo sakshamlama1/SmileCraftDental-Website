@@ -1,0 +1,141 @@
+
+.about-container {
+    padding: 3rem 0; /* increased padding for spacious feel */
+    background-color: #F7FAFC;
+    text-align: left;
+    overflow: hidden;
+}
+
+.about-intro {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem; /* consistent gap between content and image */
+    padding: 4rem 0;
+    border-radius: 12px; /* subtle rounding for professional look */
+}
+
+.about-left {
+    flex-shrink: 0;
+    max-width: 400px;
+}
+
+.about-left img {
+    width: 100%;
+    height: auto; 
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-divider {
+    margin: 3rem 0;
+}
+
+.section-heading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #CD9457;
+    margin: 1rem auto;
+}
+
+.section-sub-heading {
+    font-size: 1.8rem;
+    margin: 1rem auto;
+    font-weight: 700;
+    color: #CD9457;
+}
+
+.about-right p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 1.2rem;
+}
+
+.what-we-do {
+    margin: auto;
+    max-width: 1300px;
+}
+
+.what-we-do ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.what-we-do li {
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.what-we-do li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 0.35em;
+    height: 0.35em;
+    background-color: #4096A6;
+    border-radius: 50%;
+}
+
+.section-sub-heading-text {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+@media (max-width: 1324px) {
+    .about-intro {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0 1.5rem;
+    }
+
+    .what-we-do {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .about-right p,
+    .what-we-do li,
+    .section-sub-heading-text {
+        font-size: 1rem; 
+    }
+
+    .section-heading {
+        font-size: 1.6rem;
+    }
+
+    .section-sub-heading {
+        font-size: 1.6rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    .about-intro {
+        padding: 0 1rem;
+    }
+
+    .about-right p,
+    .what-we-do li,
+    .section-sub-heading-text {
+        font-size: 0.9rem;
+    }
+
+    .section-heading {
+        font-size: 1.4rem;
+    }
+
+    .section-sub-heading {
+        font-size: 1.4rem; 
+    }
+}

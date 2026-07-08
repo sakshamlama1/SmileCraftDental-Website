@@ -1,0 +1,179 @@
+/* Layout Container */
+.afterpay-information {
+    display: flex;
+    gap: 3rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.afterpay-left,
+.afterpay-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.afterpay-logo {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(0.1);
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+.afterpay-logo:hover {
+    transform: scale(1.05);
+}
+
+.afterpay-right h2 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #CD9457;
+    font-weight: 700;
+}
+
+.afterpay-right p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555555;
+}
+
+/* Afterpay Instructions Component */
+.afterpay-instructions {
+    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    margin-top: 5vh;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.afterpay-instructions h2 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #2C2C2C;
+    font-weight: 700;
+}
+
+.afterpay-instructions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: flex-start;
+    max-width: 1300px;
+    margin-inline: auto;
+}
+
+.afterpay-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.afterpay-instruction-logo {
+    margin-bottom: 1rem;
+    filter: grayscale(0.1);
+    transition: transform 0.3s ease;
+}
+
+.afterpay-step p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #555555;
+    max-width: 240px;
+}
+
+.afterpay-discover {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.afterpay-discover h3 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #2C2C2C;
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .afterpay-information {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    .afterpay-left,
+    .afterpay-right {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .afterpay-right h2 {
+        font-size: 1.5rem;
+    }
+
+    .afterpay-right p {
+        font-size: 1rem;
+    }
+
+    .afterpay-instructions {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .afterpay-instructions h2 {
+        font-size: 1.5rem;
+        padding-left: 0.75rem;
+    }
+
+    .afterpay-step p {
+        font-size: 1rem;
+        max-width: 220px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .afterpay-right h2 {
+        font-size: 1.3rem;
+    }
+
+    .afterpay-right p {
+        font-size: 0.9rem;
+    }
+
+    .afterpay-instructions {
+        padding: 2rem 1rem;
+    }
+
+    .afterpay-instructions h2 {
+        font-size: 1.4rem;
+        padding-left: 0.6rem;
+        text-align: left;
+    }
+
+    .afterpay-instructions-grid {
+        grid-template-columns: 1fr; /* Stack each step vertically */
+        gap: 2.5rem;
+    }
+
+    .afterpay-instruction-logo {
+        width: 150px;
+    }
+
+    .afterpay-step p {
+        font-size: 0.9rem;
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+}

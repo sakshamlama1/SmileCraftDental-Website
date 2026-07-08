@@ -1,0 +1,158 @@
+.clinic-intro-video {
+    background-color: #F7FAFC;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.clinic-intro-video .container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.intro-video-heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #CD9457;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    padding-bottom: 0.6rem;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-wrapper {
+    min-width: 400px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    object-fit: cover;
+}
+
+.intro-video-content {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.intro-text b {
+    color: #2C2C2C;
+}
+
+.intro-text {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555555;
+    text-align: left;
+    max-width: 520px;
+}
+
+.intro-cta {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: #CD9457;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    width: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.intro-cta:hover {
+  background-color: #4096A6;
+  color: white;
+}
+
+
+.intro-cta-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.intro-cta.secondary {
+    background-color: #fff;
+    color: #4096A6;
+    border: 2px solid #4096A6;
+}
+
+.intro-cta.secondary:hover {
+    background-color: #4096A6; /* graphite hover */
+    color: white;
+}
+
+
+@media (max-width: 1024px) {
+    .intro-video-heading {
+        font-size: 2rem;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .intro-cta {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .video-wrapper {
+        max-width: 100%;
+    }
+
+    .intro-cta-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+  .intro-video-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .intro-video-heading {
+    font-size: 1.8rem;
+  }
+
+  .video-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .intro-text {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .intro-cta {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+

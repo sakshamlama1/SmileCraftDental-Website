@@ -1,0 +1,35 @@
+/* General Styles for the Button */
+.call-us-button-container {
+    text-align: center;
+    flex-wrap: wrap; /* Allow buttons to wrap into next line if needed */
+    max-width: 100%; /* Ensure container doesn't overflow */
+    overflow: hidden; /* Prevent content spilling outside */
+    margin-right: 1vw;
+}
+
+/* Button style */
+.call-us-button-container a {
+    text-align: center;
+    text-decoration: none;
+    width: 100%; 
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    color: #2C2C2C;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.header-call-link:hover {
+    color: #4096A6;
+}
+
+
+@media (max-width: 1480px) {
+    .call-us-button-container a { 
+        font-size: 16px;
+    }
+
+    
+}

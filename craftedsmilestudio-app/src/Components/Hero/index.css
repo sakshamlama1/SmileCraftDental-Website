@@ -1,0 +1,187 @@
+/* Hero container */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(195deg, #D1A16F 0%, #FDE6C7 50%, #ffffff 100%);
+    padding-top: calc(200px + clamp(3rem, 3vw, 3rem));
+    padding-bottom: clamp(3rem, 10vw, 10rem);
+    box-sizing: border-box;
+}
+
+/* Subpage hero (smaller) */
+.hero-subpage {
+    min-height: calc(60vh - 200px); /* smaller hero minus header */
+    padding-top: calc(200px + 1rem);
+    padding-bottom: 3rem;
+}
+
+/* Inner wrapper */
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;                 /* space between text and image */
+    width: 100%;
+    max-width: 1400px;         /* professional max width */
+    padding: 4rem 2rem;        /* inner breathing space */
+    box-sizing: border-box;
+}
+
+/* Hero left / right */
+.hero-left,
+.hero-right {
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+.hero-right {
+    width: 100%;
+    max-height: 500px; 
+    height: 500px;       
+    overflow: hidden;   
+}
+
+/* Hero left content */
+.clinic-name {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #2C2C2C;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.btn-primary,
+.btn-secondary {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.7rem 1.7rem;
+    border-radius: 30px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #CD9457;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #4096A6;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #4096A6;
+    border: 2px solid #4096A6;
+}
+
+.btn-secondary:hover {
+    background-color: #4096A6;
+    color: #fff;
+}
+
+/* Hero image */
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   /* key change: no cropping */
+    
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards 0.3s;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1480px) {
+    .hero {
+        padding-top: calc(120px + 12rem);
+        padding-bottom: 12rem;
+    }
+}
+
+/* Responsive: tablets */
+@media (max-width: 1024px) {
+    .hero {
+        padding-top: calc(120px + 6.5rem);
+        padding-bottom: 6.5rem;
+    }
+
+    .hero-inner {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .clinic-name { font-size: 2rem; }
+    .tagline { font-size: 1rem; }
+
+    .cta-buttons {
+        justify-content: center;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        font-size: 1rem;
+        width: 100%;
+        padding: 0.7rem 1.7rem;
+    }
+ 
+    .hero-img { max-width: 80%; max-height: 360px; }
+}
+
+/* Responsive: mobile */
+@media (max-width: 768px) {
+    
+    .hero-inner {
+        padding: 0 1.5rem;
+        gap: 2rem;
+    }
+
+    .hero-left,
+    .hero-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .clinic-name { font-size: 1.8rem; }
+    .tagline { font-size: 0.9rem; }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .hero-img { max-width: 100%; max-height: 300px; }
+}

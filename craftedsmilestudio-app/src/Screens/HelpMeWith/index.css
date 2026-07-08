@@ -1,0 +1,230 @@
+/* =========================
+   help-me-withs Page Styles
+   Dental Clinic – Consistent Responsive Typography
+   ========================= */
+
+/* -------------------------
+   Main Section
+   ------------------------- */
+.help-me-with-container {
+    background-color: #F7FAFC;
+    padding: 3rem 2rem;
+    text-align: left;
+}
+
+.help-me-with-content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.help-me-with-split {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-me-with-media-left {
+    flex: 1;
+    padding: 1rem;
+}
+
+.help-me-with-media-right {
+    flex: 2;
+}
+
+/* Introduction Paragraph */
+.help-me-with-intro-description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #CD9457;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.help-me-with-intro a,
+.help-me-with-intro-description a {
+    color: #CD9457;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.help-me-with-intro a:hover,
+.help-me-with-intro-description a:hover {
+    color: #4096A6;
+}
+
+/* Tiles Container */
+.help-me-with-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+    width: 100%;
+}
+
+/* Individual Tile */
+.help-me-with-tile {
+    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover Effect */
+.help-me-with-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.help-me-with-tile h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2C2C2C;
+    margin-bottom: 0.8rem;
+}
+
+.help-me-with-tile p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 1.8rem;
+}
+
+/* help-me-withs Section (Lists & Headings) */
+.help-me-with-section {
+    margin-bottom: 30px;
+}
+
+.help-me-with-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.help-me-with-section li {
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.help-me-with-section li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 0.35em;
+    height: 0.35em;
+    background-color: #4096A6;
+    border-radius: 50%;
+
+}
+
+.help-me-with-section h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #CD9457;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.help-me-with-section h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #CD9457;
+    margin-bottom: 1rem;
+}
+
+.help-me-with-section {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555555;
+}
+
+/* =========================
+   Responsive Font Scaling
+   ========================= */
+@media (max-width: 1024px) {
+    .help-me-with-split {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .help-me-with-intro-description {
+        font-size: 1.4rem;
+    }
+
+    .help-me-with-tile h3 {
+        font-size: 1.4rem;
+    }
+
+    .help-me-with-tile p {
+        font-size: 1rem;
+    }
+
+    .help-me-with-section li {
+        font-size: 1rem;
+    }
+
+    .help-me-with-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .help-me-with-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .help-me-with-section {
+        font-size: 1rem;
+    }
+
+    .help-me-with-section li::before {
+        font-weight: 400;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .help-me-with-split {
+        gap: 1rem;
+    }
+
+    .help-me-with-tile {
+        min-height: 280px;
+    }
+
+    .help-me-with-intro-description {
+        font-size: 1.2rem;
+    }
+
+    .help-me-with-tile h3 {
+        font-size: 1.2rem;
+    }
+
+    .help-me-with-tile p {
+        font-size: 0.9rem;
+    }
+
+    .help-me-with-section li {
+        font-size: 0.9rem;
+    }
+
+    .help-me-with-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .help-me-with-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .help-me-with-section {
+        font-size: 0.9rem;
+    }
+}

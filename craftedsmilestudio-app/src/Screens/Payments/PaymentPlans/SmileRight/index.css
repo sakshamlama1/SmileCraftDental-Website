@@ -1,0 +1,69 @@
+.smile-right-text {
+    margin: 3rem auto;
+    color: #555555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.smile-right-section {
+    margin-bottom: 30px;
+}
+
+.smile-right-section h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #CD9457;
+    margin-bottom: 1rem;
+}
+
+.smile-right-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.smile-right-section ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.smile-right-section ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #4096A6;
+    font-weight: bold;
+}
+
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .smile-right-text {
+        font-size: 1rem;
+    }
+
+    .smile-right-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .smile-right-section ul li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+     .smile-right-text {
+        font-size: 0.9rem;
+    }
+
+    .smile-right-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .smile-right-section ul li {
+        font-size: 0.9rem;
+    }
+}

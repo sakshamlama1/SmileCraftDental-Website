@@ -1,0 +1,100 @@
+
+/* Banner Section */
+.special-offers {
+    padding: 3rem 2rem; /* increased padding for spacious feel */
+    background-color: #F7FAFC;
+    text-align: left;
+    overflow: hidden;
+}
+
+.special-offers-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 4rem 3rem;
+    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    border-radius: 12px;
+}
+
+.special-offers-content {
+    max-width: 720px;
+}
+
+.special-offers-cta {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.special-offers-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2C2C2C;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+}
+
+.special-offers-content p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #555555;
+    line-height: 1.6;
+}
+
+/* CTA Buttons */
+.special-offers-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    min-width: 160px;
+    background-color: #CD9457;
+    color: #fff;
+}
+
+.special-offers-button:hover {
+    background-color: #4096A6;
+    color: white;
+}
+
+/* Adjust on smaller screens */
+@media (max-width: 1024px) {
+  .special-offers-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .special-offers-content h2 {
+        font-size: 1.8rem; 
+    }
+
+    .special-offers-content p {
+        font-size: 1rem;
+    }
+
+    .special-offers-button {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+/* Adjust on smaller screens */
+@media (max-width: 768px) {
+    .special-offers-content h2 {
+        font-size: 1.6rem; 
+    }
+
+    .special-offers-content p {
+        font-size: 0.9rem; 
+    }
+
+    .special-offers-button {
+        font-size: 0.9rem;
+    }
+}

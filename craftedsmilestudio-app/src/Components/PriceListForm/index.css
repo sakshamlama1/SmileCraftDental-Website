@@ -1,0 +1,57 @@
+.price-list-form-component {
+    display: flex;
+    padding: 3rem 2rem;
+    background-color: #F7FAFC;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-list-form-component .price-list-form-content {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 12px;
+}
+
+.price-list-form-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #CD9457;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5em;
+}
+
+.price-list-form-content input {
+    font-size: 1.1rem;
+}
+  
+.submit-button.disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+    .price-list-form-content input {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .price-list-form-content {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .price-list-form-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .price-list-form-content input {
+        font-size: 0.9rem;
+    }
+}

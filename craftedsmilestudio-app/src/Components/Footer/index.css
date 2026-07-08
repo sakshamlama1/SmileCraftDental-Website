@@ -1,0 +1,192 @@
+/* ===== Footer Base ===== */
+.footer-component {
+    background-color: #3B655E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 4rem 2rem; /* top, sides, bottom */
+    box-sizing: border-box;
+}
+
+/* ===== Areas We Serve ===== */
+.footer-areas {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.footer-areas h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #CD9457;
+    margin-bottom: 0.5rem;
+}
+
+.footer-map p {
+    font-size: 1.1rem;
+    color: #A8E6CF;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* ===== Footer Main Content ===== */
+.footer-content {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* ===== Columns ===== */
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.column h4, .footer-map h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #CD9457;
+    margin-bottom: 1rem;
+}
+
+.column-anchor {
+    color: #A8E6CF;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 12px;
+    transition: border-bottom 0.2s ease;
+}
+
+.column-anchor:hover {
+    color: #CD9457;
+}
+
+/* ===== Map Section ===== */
+.footer-map {
+    min-width: 280px;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ===== Copyright Section ===== */
+.footer-copy {
+    background-color: #2C4B45;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-copy p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #A8E6CF;
+}
+
+.areas-list-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* Adjust the spacing between items */
+  padding-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.areas-list-flex span::after {
+  content: "|";
+  margin-left: 1.5rem; /* spacing after pipe */
+}
+
+.areas-list-flex span:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+#single-footer-header {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #CD9457;
+    text-decoration: none;
+}
+
+/* ===== Responsiveness ===== */
+@media (max-width: 1024px) {
+    .footer-items {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-areas h4 {
+        font-size: 1.4rem;
+    }
+
+    .footer-map p {
+        font-size: 1rem;
+    }
+
+    .column h4, .footer-map h4 {
+        font-size: 1.4rem;
+    }
+
+    .column-anchor {
+        font-size: 1rem;
+    }
+
+    .footer-copy p {
+        font-size: 1.1rem;
+    }
+
+    #single-footer-header {
+        font-size: 1.4rem;
+    }
+
+    .areas-list-flex {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-areas h4 {
+        font-size: 1.2rem;
+    }
+
+    .footer-map p {
+        font-size: 0.9rem;
+    }
+
+    .column h4, .footer-map h4 {
+        font-size: 1.2rem;
+    }
+
+    .column-anchor {
+        font-size: 0.9rem;
+    }
+
+    .footer-copy p {
+        font-size: 0.9rem;
+    }
+
+    #single-footer-header {
+        font-size: 1.2rem;
+    }
+
+    .areas-list-flex {
+        font-size: 0.9rem;
+    }
+}

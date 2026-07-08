@@ -1,0 +1,239 @@
+/* =========================
+   Services Page Styles
+   Dental Clinic – Consistent Responsive Typography
+   ========================= */
+
+/* -------------------------
+   Main Section
+   ------------------------- */
+.services-container,
+.general-dentistry-container,
+.cosmetic-dentistry-container,
+.restorative-dentistry-container {
+    background-color: #F7FAFC;
+    padding: 3rem 2rem;
+    text-align: left;
+}
+
+.services-content,
+.general-dentistry-content,
+.cosmetic-dentistry-content,
+.restorative-dentistry-content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.services-split {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-media-left {
+    flex: 1;
+    padding: 1rem;
+}
+
+.services-media-right {
+    flex: 2;
+}
+
+/* Introduction Paragraph */
+.services-intro-description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #CD9457;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.services-intro a,
+.services-intro-description a {
+    color: #CD9457;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.services-intro a:hover,
+.services-intro-description a:hover {
+    color: #4096A6;
+}
+
+/* Tiles Container */
+.services-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+    width: 100%;
+}
+
+/* Individual Tile */
+.service-tile {
+    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover Effect */
+.service-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.service-tile h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2C2C2C;
+    margin-bottom: 0.8rem;
+}
+
+.service-tile p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 1.8rem;
+}
+
+/* Services Section (Lists & Headings) */
+.services-section {
+    margin-bottom: 30px;
+}
+
+.services-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services-section li {
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.services-section li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 0.35em;
+    height: 0.35em;
+    background-color: #4096A6;
+    border-radius: 50%;
+}
+
+.services-section h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #CD9457;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.services-section h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #CD9457;
+    margin-bottom: 1rem;
+}
+
+.services-section {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555555;
+}
+
+#sub-services-tiles {
+    padding-bottom: 3rem;
+}
+
+/* =========================
+   Responsive Font Scaling
+   ========================= */
+@media (max-width: 1024px) {
+    .services-split {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .services-intro-description {
+        font-size: 1.4rem;
+    }
+
+    .service-tile h3 {
+        font-size: 1.4rem;
+    }
+
+    .service-tile p {
+        font-size: 1rem;
+    }
+
+    .services-section li {
+        font-size: 1rem;
+    }
+
+    .services-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .services-section h3 {
+        font-size: 1.4rem;
+    }
+
+    .services-section {
+        font-size: 1rem;
+    }
+
+    .services-section li::before {
+        font-weight: 400;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .services-split {
+        gap: 1rem;
+    }
+
+    .service-tile {
+        min-height: 280px;
+    }
+
+    .services-intro-description {
+        font-size: 1.2rem;
+    }
+
+    .service-tile h3 {
+        font-size: 1.2rem;
+    }
+
+    .service-tile p {
+        font-size: 0.9rem;
+    }
+
+    .services-section li {
+        font-size: 0.9rem;
+    }
+
+    .services-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .services-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .services-section {
+        font-size: 0.9rem;
+    }
+}

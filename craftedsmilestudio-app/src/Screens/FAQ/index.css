@@ -1,0 +1,17 @@
+.faq-container {
+    background-color: #F7FAFC;
+    display: flex;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+
+.faq-content {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    border-radius: 12px; /* subtle rounding for professional look */
+}

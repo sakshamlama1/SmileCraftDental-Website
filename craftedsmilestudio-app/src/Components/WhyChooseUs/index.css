@@ -1,0 +1,117 @@
+.why-choose-us-container {
+    padding: 3rem 0; /* increased padding for spacious feel */
+    background-color: #F7FAFC;
+    text-align: left;
+    overflow: hidden;
+    transition: transform 0.5s linear;
+}
+
+.why-choose-us-container .why-choose-us-content {
+    margin: auto;
+    padding: 4rem 3rem;
+    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    min-height: 3rem;
+}
+  
+.why-choose-us-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+.why-choose-us-text-container h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2C2C2C;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+}
+
+.why-choose-us-text-container p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.why-choose-us-features {
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  gap: 2rem;
+  justify-content: center;
+  align-content: center;
+  max-width: 1300px; /* max width instead of fixed */
+  width: 100%;        /* allows it to shrink */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.feature-box {
+  background: #F7FAFC;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #CD9457;
+}
+
+.feature-box p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555555;
+}
+
+@media (max-width: 1024px) {
+    .why-choose-us-text-container h2 {
+        font-size: 2rem;
+    }
+
+    .why-choose-us-text-container p {
+        font-size: 1rem;
+    }
+
+    .why-choose-us-features {
+        grid-template-columns: 1fr; /* stack boxes on smaller screens */
+    }
+
+    .feature-box h3 {
+        font-size: 1.4rem;
+    }
+
+    .feature-box p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-choose-us-text-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .why-choose-us-text-container p {
+        font-size: 0.9rem;
+    }
+
+    .feature-box h3 {
+        font-size: 1.2rem;
+    }
+
+    .feature-box p {
+        font-size: 0.9rem;
+    }
+}

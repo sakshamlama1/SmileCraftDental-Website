@@ -1,0 +1,173 @@
+.team-container {
+    padding: 3rem 0; /* increased padding for spacious feel */
+    background-color: #F7FAFC;
+    text-align: left;
+    overflow: hidden;
+    transition: transform 0.5s linear;
+}
+
+.team-content {
+    margin: auto;
+    padding: 4rem 3rem;
+    background: linear-gradient(195deg, #CD9457 0%, #FDE6C7 100%);
+    min-height: 3rem;
+}
+  
+.team-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.team-text-container h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2C2C2C;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+}
+
+.team-text-container p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.team-features {
+  display: grid;
+  grid-template-columns: repeat(1, 4fr);
+  gap: 2rem;
+  justify-content: center;
+  align-content: center;
+  max-width: 1300px; /* max width instead of fixed */
+  width: 100%;        /* allows it to shrink */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.staff-section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-content: center;
+  max-width: 650px; /* max width instead of fixed */
+  width: 100%;        /* allows it to shrink */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.staff-info h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    color: #CD9457;
+}
+
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-image-wrapper {
+    width: 20rem; /* scales with font-size */
+    height: 20rem; 
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+}
+
+.team-info {
+    flex: 1;
+    min-width: 280px;
+}
+
+.team-info h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #CD9457;
+}
+
+.team-info .role {
+    font-weight: 600;
+    color: #5B9D7D;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem; /* Base role text */
+}
+
+.team-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555555;
+}
+
+
+.team-member-box {
+  background: #F7FAFC;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 1024px) {
+    .team-text-container h2 {
+        font-size: 2rem;
+    }
+
+    .team-text-container p {
+        font-size: 1rem;
+    }
+
+    .team-features {
+        grid-template-columns: 1fr; /* stack boxes on smaller screens */
+    }
+
+    .team-info h3 {
+        font-size: 1.4rem;
+    }
+
+    .team-info p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-text-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .team-text-container p {
+        font-size: 0.9rem;
+    }
+
+    .team-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .team-info p {
+        font-size: 0.9rem;
+    }
+}

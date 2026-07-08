@@ -1,0 +1,32 @@
+.media-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.media-side video,
+.services-split img {
+  width: 100%;
+  max-width: 650px;          /* desktop cap */
+  aspect-ratio: 16 / 9;      /* most videos */
+  height: auto;              /* let ratio control height */
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .media-side video,
+  .services-split img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .media-side video,
+  .services-split img {
+    max-width: 100%;
+    aspect-ratio: 4 / 3; /* optional: feels better on mobile */
+  }
+}
