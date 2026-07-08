@@ -23,7 +23,7 @@ function CosmeticDentistry() {
                     At Smile Craft Dental, our cosmetic dentistry focuses on enhancing the appearance of your smile while supporting long-term dental health.
                     From subtle refinements to complete smile transformations, we offer personalized cosmetic dentistry designed to enhance your smile’s natural beauty.
                     Combining advanced techniques with thoughtful, patient-focused care. Our clinic welcomes patients, providing cosmetic dental care across 
-                    Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding areas.
+                    Tuncurry, Forster, Hallidays Point, Black Head, Diamond Beach, Nabiac, and surrounding areas.
                 `}
                 media={CosmeticDentistryImage}
             />

@@ -21,7 +21,7 @@ function RestorativeDentistry() {
                 subheading={`
                     Dental damage can impact more than just your smile. At Smile Craft Dental, we provide comprehensive restorative 
                     dentistry to repair damaged teeth, replace missing teeth, and restore the natural function and appearance of your smile.  
-                    Providing trusted restorative dental care for patients in Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding suburbs.
+                    Providing trusted restorative dental care for patients in Tuncurry, Foster, Hallidays Point, Black Head, Diamond Beach, Nabiac, and surrounding suburbs.
                 `}
                 media={RestorativeDentistryImage}
             />

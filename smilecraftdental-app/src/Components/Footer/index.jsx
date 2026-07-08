@@ -29,7 +29,6 @@ function Footer() {
                         <span>Black Head</span>
                         <span>Diamond Beach</span>
                         <span>Nabiac</span>
-                        <span>Pacific Palms</span>
                     </h6>
                 </div>
 

@@ -44,7 +44,7 @@ function GeneralDentistry() {
                             </p>
                             <p>
                                 With years of experience, our dedicated team builds <b>lasting relationships with patients</b>, offering tailored treatment 
-                                plans that meet your unique needs. Proudly serving <b>Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara,
+                                plans that meet your unique needs. Proudly serving <b>Tuncurry, Forster, Hallidays Point, Black Head, Diamond Beach, Nabiac,
                                 and surrounding areas</b>, we are committed to providing <p>exceptional family dentistry, cosmetic dentistry, and restorative dental care you can trust.</p>
                             </p>
                         </div>

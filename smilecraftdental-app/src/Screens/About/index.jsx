@@ -17,7 +17,7 @@ function About() {
                     `At Smile Craft Dental, we combine modern dental expertise with a warm, patient-focused approach. 
                     From routine check-ups to advanced dental treatments, our experienced team is committed to helping you 
                     achieve and maintain a healthy, confident smile in a comfortable and welcoming environment. 
-                    We proudly care for patients from Tuncurry, Newcastle, Wallsend, Rankin Park, Cardiff, Kotara, and surrounding suburbs.`
+                    We proudly care for patients from Tuncurry, Foster, Hallidays Point, Black Head, Diamond Beach, Nabiac, and surrounding suburbs.`
             }
                 media={AboutUsBannerImage} 
             />
@@ -35,7 +35,7 @@ function About() {
                             <b>From bulk billing to payment plans, get in touch with us today to learn how we can help.</b> 
                         </p>
                         <p>
-                           At our Tuncurry location, we have dentists offering care and services to patients throughout Newcastle, Tuncurry, Wallsend, Cardiff, Rankin Park, New Lambton, and all surrounding areas. Whether it’s a dental emergency, considering cosmetic dentistry, or you’re merely needing a check-up, Smile Craft Dental are the dentist for you. Book an appointment online today!
+                           At our Tuncurry location, we have dentists offering care and services to patients throughout Tuncurry, Foster, Hallidays Point, Black Head. Diamond Beach, Nabiac, and all surrounding areas. Whether it’s a dental emergency, considering cosmetic dentistry, or you’re merely needing a check-up, Smile Craft Dental are the dentist for you. Book an appointment online today!
 
                         </p>
                     </div>
