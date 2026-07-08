@@ -22,7 +22,7 @@
 .special-offers-screen-box {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 80%, #E7B768 100%);
     border-radius: 1rem;
     padding: 3rem 2rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);

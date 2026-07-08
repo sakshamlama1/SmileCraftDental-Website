@@ -15,7 +15,7 @@
     justify-content: space-between;
     gap: 2rem; /* consistent gap between content and image */
     padding: 4rem 2rem;
-    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 80%, #E7B768 100%);
     border-radius: 12px; /* subtle rounding for professional look */
 }
 

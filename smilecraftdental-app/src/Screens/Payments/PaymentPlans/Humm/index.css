@@ -41,7 +41,7 @@
 
 /* Humm Instructions Section */
 .humm-instructions {
-    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 80%, #E7B768 100%);
     margin-top: 5vh;
     padding: 3rem;
     border-radius: 1rem;

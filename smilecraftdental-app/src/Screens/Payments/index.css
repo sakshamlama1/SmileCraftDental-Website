@@ -50,7 +50,7 @@
 
 /* Individual Tile */
 .payment-tile {
-    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 100%);
+    background: linear-gradient(195deg, #1E9ED8 0%, #EEF7FC 80%, #E7B768 100%);
     border-radius: 14px;
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
     padding: 3rem 2rem;
