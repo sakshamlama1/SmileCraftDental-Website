@@ -1,13 +1,43 @@
 import teamMember1 from "../assets/team/team-member-1.png";
 import teamMember2 from "../assets/team/team-member-2.png";
-import teamMember3 from "../assets/team/team-member-3.png";
-import teamMember4 from "../assets/team/team-member-4.png";
-import teamMember5 from "../assets/team/team-member-5.png";
 
 const dentists = [
     {
-        name: "Dr Pooja Lama",
+        name: "Dr Saurabh Lama",
         image: teamMember1,
+        description: (
+            <>
+                <p>
+                    <b>Hi, I'm Dr. Saurabh Lama.</b>
+                </p>
+                <p>
+                    After graduating as a dentist in 1997, I worked in private practice for many years before moving to Australia to further my career in dentistry. 
+                    I successfully obtained my Australian Dental Council accreditation, allowing me to continue providing high-quality dental care to patients in Australia.
+                </p>
+                <p>
+                    My team and I are committed to delivering high-quality dental care that is affordable, accessible, and tailored to each patient's needs. 
+                    I enjoy all aspects of general dentistry, with a particular interest in restorative dentistry, prosthodontics, smile enhancement, and Invisalign treatment.
+                </p>
+                <p>
+                    I have a special rapport with children and believe in creating a positive, comfortable experience for every patient. 
+                    To ensure I provide the highest standard of care, I regularly participate in continuing education programs to stay up to date with the latest techniques and advancements in dentistry.
+                </p>
+                <p>
+                    Making sure my patients feel comfortable throughout their treatment is one of my top priorities. 
+                    I take the time to answer your questions, explain your treatment options clearly, and help you make informed decisions about your oral health and smile.
+                </p>
+                <p>
+                    Outside the practice, I enjoy traveling, exploring Indian cuisine, watching cricket, and spending quality time with my family.
+                </p>
+                <p>
+                    Thank you for choosing us for your dental care — I look forward to meeting you and helping you achieve a healthy, confident smile.
+                </p>
+            </>
+        )
+    },
+    {
+        name: "Dr Pooja Lama",
+        image: teamMember2,
         description: (
             <>
                 <p>
@@ -36,74 +66,9 @@ const dentists = [
                 </p>
             </>
         )
-    },
-    {
-        name: "Dr Beverly San Pablo",
-        image: teamMember2,
-        description: (
-            <>
-                <p>
-                    Dr Beverly San Pablo is one of the dentists looking after our patients in Newcastle. After graduating as a dentist in 2003, she has worked for 19 years as a general dentist. She is very keen with continuing her education here in Australia, and goes to the US for the same, never settling alone with what she has learnt from the university. She believes in evidence-based science and has a strong focus on prevention and conservation. Listening to every patient’s needs is very important to her.
-                </p>
-                <p>
-                    With a smile on her face, she welcomes everybody.team
-                </p>
-                <p>
-                    Outside the clinic, she loves spending time with her friends and enjoying good food with great stories.
-                </p>
-
-            </>
-        )
-    },
-    {
-        name: "Dr Nishita Sheth",
-        image: teamMember3,
-        description: (
-            <>
-                <p>
-                    Dr Nishita Sheth holds a Doctor of Dental Medicine from the University of Sydney and is dedicated to delivering high-quality, patient-centred care. She is committed to creating a calm, welcoming environment where patients feel comfortable, informed, and well supported throughout their treatment.
-                </p>
-                <p>
-                    Dr Nishita Sheth enjoys all aspects of general dentistry, with a particular focus on helping anxious patients feel at ease. She has a strong interest in preventative, restorative, and aesthetic dentistry, and believes in working collaboratively with patients to achieve healthy, functional, and long-lasting smiles.
-                </p>
-                <p>
-                   Passionate about continuous learning, Dr Nishita Sheth regularly undertakes professional development to stay current with the latest advancements in dental care, ensuring her patients receive the highest standard of treatment.
-                </p>
-                <p>
-                    Outside of dentistry, she enjoys cooking, reading, and maintaining an active lifestyle at the gym.
-                </p>
-            </>
-        )
-    },
-    {
-        name: "Dr Sushmita Karki",
-        image: teamMember4,
-        description: (
-            <>
-                <p>
-                    Dr Sushmita Karki is a compassionate and dedicated dentist committed to helping patients achieve healthy, confident smiles. Her passion for dentistry began at a young age, inspired by witnessing her mother’s struggle with toothache, which motivated her to pursue a career focused on relieving pain and improving quality of life. She finds great fulfilment in seeing her patients leave the clinic feeling comfortable, cared for, and happy with their results.
-                </p>
-                <p>
-                    Graduating in 2016, Dr Sushmita Karki has been practising dentistry with a strong focus on delivering high-quality, patient-centred care. She is committed to ongoing professional development and regularly undertakes further training to stay up to date with the latest advancements in modern dentistry.
-                </p>
-                <p>
-                    Dr Sushmita Karki has a particular interest in surgical and aesthetic dentistry, and enjoys providing treatments that enhance both oral health and smile confidence. She is dedicated to creating a warm, welcoming environment where patients feel relaxed, informed, and supported throughout their dental journey.
-                </p>
-                <p>
-                    Outside of dentistry, Dr Sushmita Karki enjoys travelling and exploring different cultures. She also values spending quality time with her family, including her young daughter and her beloved fur companion, Bella.
-                </p>
-            </>
-        )
-    }
-];
-
-const supportStaff = [
-    {
-        name: "Lashelle Reimer",
-        image: teamMember5
     }
 ];
 
 
-const teamMembers = { dentists, supportStaff };
+const teamMembers = { dentists };
 export default teamMembers;
