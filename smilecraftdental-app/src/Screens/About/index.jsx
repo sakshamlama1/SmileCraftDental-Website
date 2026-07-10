@@ -6,6 +6,7 @@ import Team from "../../Components/Team";
 import Hero from "../../Components/Hero";
 import AboutUsBannerImage from "../../assets/banner-images/about-us-banner-image.png";
 import Banner from "../../Components/Banner";
+import AboutImage from "../../assets/about-image.png";
 
 function About() {
     return (
@@ -23,9 +24,9 @@ function About() {
             />
             <main className="about-container">
                 <section className="about-intro">
-                    {/* <div className="about-left">
+                    <div className="about-left">
                         <img src={AboutImage} alt="About Smile Craft Dental" />
-                    </div> */}
+                    </div>
                     <div className="about-right">
                         <h2 className="section-heading">WHO WE ARE</h2>
                         <p>
